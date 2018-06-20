@@ -20,7 +20,7 @@ export default class App extends Component {
   handleSignIn(e) {
     e.preventDefault();
     const origin = window.location.origin
-    redirectToSignIn(origin, origin + '/manifest.json', ['store_write', 'publish_data']);
+    redirectToSignIn(origin, origin + '/manifest.json', ['store_write', 'publish_data'])
   }
 
   handleSignOut(e) {
@@ -36,11 +36,11 @@ export default class App extends Component {
             <Signin handleSignIn={ this.handleSignIn } />
             : 
             <Switch>
-              <Route
-                path='/:username?'
+              <Route 
+                path='/:username?' 
                 render={
-                  routeProps => <Profile handleSignOut={this.handleSignOut} {...routeProps}/>
-                }
+                  routeProps => <Profile handleSignOut={ this.handleSignOut } {...routeProps} />
+                } 
               />
             </Switch>
           }
