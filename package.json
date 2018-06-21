@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack -p"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PixelandProcessor/industry.git"
+    "url": "git+https://github.com/blockstack/hello-blockstack.git"
   },
   "bugs": {
     "url": "https://github.com/blockstack/hello-blockstack/issues"
@@ -29,15 +29,16 @@
     "json-loader": "^0.5.4",
     "path": "^0.12.7",
     "style-loader": "^0.16.1",
+    "uglify-es-webpack-plugin": "^0.10.0",
     "url-loader": "^0.5.8",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
-    "blockstack": "^17.2.0",
+    "blockstack": "^0.17.1",
     "bootstrap": "^3.3.7",
-    "git": "^0.1.5",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.2.2"
   }
 }
