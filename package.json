@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -30,13 +30,15 @@
     "path": "^0.12.7",
     "style-loader": "^0.16.1",
     "uglify-es-webpack-plugin": "^0.10.0",
-    "url-loader": "^0.5.8",
-    "webpack": "^2.3.3",
-    "webpack-dev-server": "^2.4.2"
+    "url-loader": "^1.0.1",
+    "webpack": "^2.7.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "blockstack": "^0.17.1",
+    "blockstack": "^17.2.0",
     "bootstrap": "^3.3.7",
+    "heroku": "^7.4.11",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.2.2"
