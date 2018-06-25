@@ -1,6 +1,6 @@
 {
   "name": "The-Industry",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "description": "A simple Blockstack app using ReactJS",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockstack/hello-blockstack.git"
+    "url": "git+https://github.com/PixelandProcessor/industry.git"
   },
   "bugs": {
     "url": "https://github.com/blockstack/hello-blockstack/issues"
