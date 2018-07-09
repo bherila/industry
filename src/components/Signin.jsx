@@ -11,7 +11,8 @@ export default class Signin extends Component {
 
     return (
       <div className="panel-landing" id="section-1">
-        <h1 className="landing-heading">Publik</h1>
+        <h1 className="landing-heading">the industry</h1>
+        <p>utilizing Bitcoin protocal and blockchain to imbue words with more weight</p>
         <p>Decentralized micro-blogging</p>
         <p className="lead">
           <button
