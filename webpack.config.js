@@ -33,8 +33,8 @@ module.exports = {
   module: {
     rules: [
       { test: /\.json$/, use: 'json-loader' },
-      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.jsx$/, use: 'babel-loader', exclude: /node_modules/ },
       {
         test: /\.(eot|woff|woff2|ttf|svg|png|jpe?g|gif)(\?\S*)?$/,
         loader: 'file-loader!url-loader',
